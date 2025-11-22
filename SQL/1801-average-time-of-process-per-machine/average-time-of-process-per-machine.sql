@@ -6,5 +6,6 @@ FROM (
     GROUP BY machine_id, process_id
 ) AS processtimetable
 GROUP BY machine_id
+ORDER BY machine_id
 
 
